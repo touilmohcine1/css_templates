@@ -1,0 +1,250 @@
+body{
+    margin: auto;
+    padding: 0;
+    font-family: Lexend Deca;
+}
+
+/* #site{
+    width: 1,422px;
+    height: 62px;
+    padding: 16px, 8px, 16px, 8px;
+
+} */
+
+.container{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#header{
+    background-color: #020617;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+#logo span{
+    font-family: Arvo;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #EAB308;
+}
+
+#navigation{
+
+}
+
+#navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation ul li{
+    float: left;
+}
+#navigation ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9CA3AF;
+
+}
+
+#navigation ul li a:hover{
+    color: #FFFFFF;
+}
+
+#content{
+    background: #111827;
+}
+
+#div_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-top: 50px; */
+    padding-top: 97px;
+    padding-bottom: 97px;
+    /* margin-bottom: 50px; */
+
+}
+
+#content_about{
+    background-color: aqua;
+}
+
+div#imagee{
+    
+    background-color: red;
+    width: 427px;
+    height: 427px;
+}
+
+img{
+    width: 427px;
+    height: auto;
+    border-radius: 24px;
+    background-color: red;
+
+}
+
+#pp{
+    /* font-family: Lexend Deca; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #EAB308;
+
+}
+h1{
+    /* font-family: Lexend Deca; */
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+
+#paragraphe{
+    /* width: 466px;
+    height: 153px;
+    gap: 8px; */
+    /* font-family: Lexend Deca; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+p{
+    white-space: pre-wrap;
+    color: #6B7280;
+}
+
+input{
+    width: 123px;
+    height: 43px;
+    padding: 8px, 20px, 8px, 20px;
+    border-radius: 4px;
+    border-color: #FACC15;
+    gap: 10px;
+    background-color: #FACC15;
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-top: 24px;
+}
+
+#footer{
+    /* width: 685px;
+    height: 320px; */
+    /* padding: 56px, 0px, 56px, 0px;
+    gap: 56px; */
+    text-align: center;
+    background-color: #020617;
+}
+
+#div_footer{
+    
+    /* flex-direction: column; */
+    /* width: 685px;
+    height: 320px; */
+    /* padding: 56px, 0px, 56px, 0px; */
+    gap: 56px;
+
+}
+
+#title_footer{
+    font-family: Lexend Deca;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    /* text-align: center; */
+    color: #FFFFFF;
+    padding-top: 56px;
+
+}
+
+#content_footer{
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    /* text-align: center; */
+
+}
+
+#socail_media{
+    padding-top: 56px;
+    padding-bottom: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#socail_media ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#socail_media ul li{
+    float: left;
+    /* flex-direction: row; */
+}
+
+.fa {
+    /* padding: 20px; */
+    /* font-size: 30px; */
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: #1F2937;
+    /* margin: 5px 2px; */
+  }
+
+#socail_media ul li a:hover{
+    background: #EAB308;
+}
+
+
